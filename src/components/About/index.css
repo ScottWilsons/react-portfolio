@@ -1,0 +1,31 @@
+.about-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 50vh;
+  margin-top: 10%;
+}
+.about {
+  position: absolute;
+  right: -80%;
+  width: 80%;
+  height: 50vh;
+  background-color: lightgray;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 2.5s forwards;
+  animation-delay: 1s;
+  border-radius: 50px 0px 0px 50px;
+}
+
+@-webkit-keyframes slide {
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes slide {
+  100% {
+    right: 0;
+  }
+}

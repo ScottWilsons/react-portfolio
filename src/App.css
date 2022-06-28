@@ -1,0 +1,13 @@
+.main {
+  background-color: gray;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
