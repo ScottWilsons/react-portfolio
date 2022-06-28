@@ -1,11 +1,11 @@
-.projects-wrapper {
+.testimonials-wrapper {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 50vh;
   margin-top: 10%;
 }
-.projects {
+.testimonials {
   position: absolute;
   left: -80%;
   width: 80%;
@@ -14,7 +14,7 @@
   -webkit-animation: slide 0.5s forwards;
   -webkit-animation-delay: 2s;
   animation: slideLeft 2.5s forwards;
-  animation-delay: 2s;
+  animation-delay: 4s;
   border-radius: 0px 50px 50px 0px;
 }
 

@@ -1,7 +1,12 @@
 import React from "react";
+import "./index.css";
 
 function Testimonials() {
-  return <div>Testimonials</div>;
+  return (
+    <div className="testimonials-wrapper">
+      <div className="testimonials">Testimonials</div>
+    </div>
+  );
 }
 
 export default Testimonials;
