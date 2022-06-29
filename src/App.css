@@ -1,10 +1,10 @@
 .main {
-  background-color: gray;
   height: auto;
   width: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-image: url(https://t3.ftcdn.net/jpg/03/41/31/88/360_F_341318810_iLrhXO8CD1mLSLIf7RkwXSahVuowqsgP.jpg);
 }
 .content {
   display: flex;

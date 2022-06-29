@@ -1,0 +1,39 @@
+h1 {
+  font-size: 20px;
+  margin: 1%;
+  margin-left: 0;
+}
+h2 {
+  font-size: 40px;
+  margin: 1%;
+  margin-left: 0;
+}
+h3 {
+  font-size: 30px;
+  margin: 1%;
+  margin-left: 0;
+}
+h4 {
+  font-size: 30px;
+  margin: 1%;
+  margin-left: 0;
+}
+.Welcome-container {
+  margin-top: 5%;
+  margin-left: 10%;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: auto;
+  height: auto;
+}
+
+@-webkit-keyframes slideLeft {
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes slideLeft {
+  100% {
+    left: 0;
+  }
+}
