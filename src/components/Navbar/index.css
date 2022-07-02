@@ -1,6 +1,7 @@
 .linkButton {
   color: var(--header-text);
   font-family: var(--main-font);
+  font-weight: 900;
 }
 .nav {
   background-color: var(--main);

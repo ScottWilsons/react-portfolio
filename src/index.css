@@ -13,7 +13,7 @@ code {
 }
 :root {
   --main: #660033;
-  --second: #1a1a1a;
+  --second: rgba(26, 26, 26, 0.8);
   --header-text: aliceblue;
   --main-font: monospace;
 }
