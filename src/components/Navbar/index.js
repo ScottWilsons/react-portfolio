@@ -7,10 +7,18 @@ function Navbar() {
       <div className="logoBox">
         <div className="logo" />
       </div>
-      <p className="linkButton">About</p>
-      <p className="linkButton">Projects</p>
-      <p className="linkButton">Skills</p>
-      <p className="linkButton">Contact</p>
+      <a href="#about" className="linkButton">
+        About
+      </a>
+      <a href="#projects" className="linkButton">
+        Projects
+      </a>
+      <a href="#skills" className="linkButton">
+        Skills
+      </a>
+      <a href="#contact" className="linkButton">
+        Contact
+      </a>
     </div>
   );
 }

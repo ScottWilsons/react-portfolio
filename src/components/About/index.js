@@ -3,9 +3,9 @@ import "./index.css";
 
 function About() {
   return (
-    <div className="about-wrapper">
+    <div id="about" className="about-wrapper">
       <div className="about">
-        About
+        <h1 className="about-title">About</h1>
         <div className="about-content">
           <div className="about-image"></div>
           <p className="about-text">
