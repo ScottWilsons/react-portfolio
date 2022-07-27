@@ -4,7 +4,9 @@ import "./index.css";
 function Skills() {
   return (
     <div id="skills" className="skills-wrapper">
-      <div className="skills">Skills</div>
+      <div className="skills">
+        <h2 className="skills-title">Skills</h2>
+      </div>
     </div>
   );
 }
