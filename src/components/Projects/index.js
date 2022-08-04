@@ -8,9 +8,7 @@ function Projects() {
     <div id="projects" className="projects-wrapper">
       <div className="projects">
         <h2 className="projects-title">Projects</h2>
-        <div className="projects-slider-container">
-          <ImageSlider slides={SliderData} />
-        </div>
+        <ImageSlider slides={SliderData} />
       </div>
     </div>
   );

@@ -37,21 +37,21 @@ const ImageSlider = ({ slides }) => {
               key={index}
             >
               {index === current && (
-                <div>
+                <div className="slider-content ">
                   <img
                     className="image"
                     src={SliderData[previous].image}
-                    alt="current slide"
+                    alt="previous slide"
                   />
                   <img
-                    className="image"
+                    className="image center-image"
                     src={slide.image}
                     alt="current slide"
                   />
                   <img
                     className="image"
                     src={SliderData[next].image}
-                    alt="current slide"
+                    alt="next slide"
                   />
                 </div>
               )}
