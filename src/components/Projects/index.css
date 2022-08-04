@@ -27,6 +27,10 @@
   font-size: 50px;
   margin: 0;
 }
+.projects-slider-container {
+  height: 70%;
+  width: 100%;
+}
 
 @-webkit-keyframes slideLeft {
   100% {
