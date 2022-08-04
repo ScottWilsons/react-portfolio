@@ -3,8 +3,10 @@ import "./index.css";
 
 function Skills() {
   return (
-    <div className="skills-wrapper">
-      <div className="skills">Skills</div>
+    <div id="skills" className="skills-wrapper">
+      <div className="skills">
+        <h2 className="skills-title">Skills</h2>
+      </div>
     </div>
   );
 }
