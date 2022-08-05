@@ -14,6 +14,25 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+.imageSides {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.center-project-text {
+  position: absolute;
+  bottom: 3px;
+  left: 28px;
+  font-size: 20px;
+}
+.center-container {
+  position: relative;
+  text-align: center;
+  color: #000;
+}
+/* was working on gradient for the left and right images */
 /* .left-image {
   background: linear-gradient(
     to bottom,
@@ -30,7 +49,7 @@
   position: absolute;
   right: 52px;
   font-size: 3rem;
-  color: #fff;
+  color: var(--header-text);
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -39,20 +58,21 @@
   position: absolute;
   left: 52px;
   font-size: 3rem;
-  color: #fff;
+  color: var(--header-text);
   z-index: 10;
   cursor: pointer;
   user-select: none;
 }
 
 .slide {
-  opacity: 0;
+  opacity: 0.7;
   transition-duration: 1s ease;
+  transform: scale(0.9);
 }
 .slide.active {
   opacity: 1;
   transition-duration: 1s;
-  transform: scale(1.1);
+  transform: scale(1);
   width: 100%;
   height: 70%;
   display: flex;
