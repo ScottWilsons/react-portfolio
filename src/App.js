@@ -9,12 +9,16 @@ import Welcome from "./components/Welcome";
 import Footer from "./components/Footer";
 
 function App() {
-  const [theme, setTheme] = useState("light-mode");
+  const saved = localStorage.getItem("key");
+  const [theme, setTheme] = useState(saved === null ? "light-mode" : saved);
+  console.log(theme);
   function ThemeSetter() {
     if (theme === "light-mode") {
       setTheme("dark-mode");
-    } else {
+      localStorage.setItem("key", "dark-mode");
+    } else if (theme === "dark-mode") {
       setTheme("light-mode");
+      localStorage.setItem("key", "light-mode");
     }
   }
   return (
