@@ -18,3 +18,14 @@ code {
   --main-font: monospace;
   --background: url(https://t3.ftcdn.net/jpg/03/41/31/88/360_F_341318810_iLrhXO8CD1mLSLIf7RkwXSahVuowqsgP.jpg);
 }
+
+.light-mode {
+  --main: #660033;
+  --second: rgba(26, 26, 26, 0.8);
+  --header-text: rgb(229, 235, 240);
+}
+.dark-mode {
+  --main: #212a2e;
+  --second: #f7f8f8;
+  --header-text: #828fff;
+}

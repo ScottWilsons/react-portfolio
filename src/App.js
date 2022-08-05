@@ -1,5 +1,5 @@
 import "./App.css";
-import React from "react";
+import React, { useState } from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -9,10 +9,18 @@ import Welcome from "./components/Welcome";
 import Footer from "./components/Footer";
 
 function App() {
+  const [theme, setTheme] = useState("light-mode");
+  function ThemeSetter() {
+    if (theme === "light-mode") {
+      setTheme("dark-mode");
+    } else {
+      setTheme("light-mode");
+    }
+  }
   return (
-    <main className="main">
+    <main className={theme}>
       <div className="background">
-        <Navbar />
+        <Navbar ThemeSetter={ThemeSetter} />
         <div className="content">
           <Welcome />
           <About />
