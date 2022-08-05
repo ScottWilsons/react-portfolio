@@ -14,6 +14,6 @@ code {
 :root {
   --main: #660033;
   --second: rgba(26, 26, 26, 0.8);
-  --header-text: aliceblue;
+  --header-text: rgb(229, 235, 240);
   --main-font: monospace;
 }
