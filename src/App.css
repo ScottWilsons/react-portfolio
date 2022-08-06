@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: space-around;
   background-image: var(--background);
+  /* keeps the background still */
+  background-attachment: fixed;
 }
 .content {
   /* margin-top: 100px; */

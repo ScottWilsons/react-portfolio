@@ -35,7 +35,8 @@ code {
   /* --main: #99ffcc; */
   /* --main: #09ff15; */
   /* --main: #d4046c; */
-  --second: rgba(150, 150, 150, 0.8);
+  /* --second: rgba(150, 150, 150, 0.8); */
+  --second: rgba(179, 179, 179, 0.8);
   --header-text: rgb(0, 0, 0);
   --welcome-background: rgba(0, 0, 0, 0.7);
   --welcome-text: rgb(255, 255, 255);
