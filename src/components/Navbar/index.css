@@ -62,7 +62,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: var(--dark-light-mode);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -80,11 +80,11 @@
 }
 
 input:checked + .switch-slider {
-  background-color: #4b4e50;
+  background-color: var(--dark-light-mode);
 }
 
 input:focus + .switch-slider {
-  box-shadow: 0 0 1px #4b4e50;
+  box-shadow: 0 0 1px var(--dark-light-mode);
 }
 
 input:checked + .switch-slider:before {

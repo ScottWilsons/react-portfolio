@@ -27,17 +27,19 @@ code {
   --welcome-text: rgb(0, 0, 0);
   --background: url(../public/WhiteBackground.jpg);
   --logo: url(../public/SAWWhite.png);
+  --dark-light-mode: #ccc;
 }
 .dark-mode {
-  /* --main: #212a2e; */
+  --main: #506872;
   /* --main: #911ddf; */
   /* --main: #99ffcc; */
   /* --main: #09ff15; */
-  --main: #d4046c;
+  /* --main: #d4046c; */
   --second: rgba(150, 150, 150, 0.8);
   --header-text: rgb(0, 0, 0);
   --welcome-background: rgba(0, 0, 0, 0.7);
   --welcome-text: rgb(255, 255, 255);
   --background: url(../public/BlackBackground.jpg);
   --logo: url(../public/SAW.png);
+  --dark-light-mode: #4b4e50;
 }
