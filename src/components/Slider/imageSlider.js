@@ -54,7 +54,7 @@ const ImageSlider = () => {
                     alt="previous slide"
                   />
                   <img
-                    className="image"
+                    className="image-inner"
                     src={SliderData[previous].image}
                     alt="previous slide"
                   />
@@ -65,7 +65,7 @@ const ImageSlider = () => {
                       rel="noopener noreferrer"
                     >
                       <img
-                        className="image center-image"
+                        className="center-image"
                         src={slide.image}
                         alt="current slide"
                       />
@@ -73,7 +73,7 @@ const ImageSlider = () => {
                     </a>
                   </div>
                   <img
-                    className="image"
+                    className="image-inner"
                     src={SliderData[next].image}
                     alt="next slide"
                   />

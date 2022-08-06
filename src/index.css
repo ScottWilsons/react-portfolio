@@ -21,7 +21,8 @@ code {
 
 .light-mode {
   --main: #660033;
-  --second: rgba(26, 26, 26, 0.8);
+  /* --second: rgba(26, 26, 26, 0.8); */
+  --second: rgb(26, 26, 26);
   --header-text: rgb(229, 235, 240);
   --welcome-background: rgba(255, 255, 255, 0.7);
   --welcome-text: rgb(0, 0, 0);
@@ -36,7 +37,9 @@ code {
   /* --main: #09ff15; */
   /* --main: #d4046c; */
   /* --second: rgba(150, 150, 150, 0.8); */
-  --second: rgba(179, 179, 179, 0.8);
+  /* --second: rgba(179, 179, 179, 0.8); */
+  /* --second: rgb(179, 179, 179); */
+  --second: rgb(228, 226, 226);
   --header-text: rgb(0, 0, 0);
   --welcome-background: rgba(0, 0, 0, 0.7);
   --welcome-text: rgb(255, 255, 255);
