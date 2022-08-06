@@ -19,7 +19,11 @@ function Navbar({ ThemeSetter }) {
       <a href="#contact" className="linkButton">
         Contact
       </a>
-      <button onClick={() => ThemeSetter()}>click here</button>
+      {/* <button onClick={() => ThemeSetter()}>click here</button> */}
+      <label className="switch">
+        <input onClick={() => ThemeSetter()} type="checkbox"></input>
+        <span className="switch-slider round"></span>
+      </label>
     </div>
   );
 }

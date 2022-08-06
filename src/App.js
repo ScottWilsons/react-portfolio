@@ -22,19 +22,21 @@ function App() {
     }
   }
   return (
-    <main className={theme}>
-      <div className="background">
-        <Navbar ThemeSetter={ThemeSetter} />
-        <div className="content">
-          <Welcome />
-          <About />
-          <Projects />
-          <Skills />
-          <Contact />
-          <Footer />
+    <body className={theme}>
+      <main className="main">
+        <div className="background">
+          <Navbar ThemeSetter={ThemeSetter} />
+          <div className="content">
+            <Welcome />
+            <About />
+            <Projects />
+            <Skills />
+            <Contact />
+            <Footer />
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </body>
   );
 }
 
