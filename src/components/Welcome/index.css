@@ -27,7 +27,7 @@
   color: var(--welcome-text);
 }
 .Welcome-container {
-  margin-top: 5%;
+  margin-top: 4%;
   margin-left: 10%;
   background-color: var(--welcome-background);
   width: auto;
