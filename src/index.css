@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 250px;
 }
 
 code {
@@ -39,7 +40,8 @@ code {
   /* --second: rgba(150, 150, 150, 0.8); */
   /* --second: rgba(179, 179, 179, 0.8); */
   /* --second: rgb(179, 179, 179); */
-  --second: rgb(228, 226, 226);
+  /* --second: rgb(207, 207, 198); */
+  --second: rgb(197, 197, 190);
   --header-text: rgb(0, 0, 0);
   --welcome-background: rgba(0, 0, 0, 0.7);
   --welcome-text: rgb(255, 255, 255);
