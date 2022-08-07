@@ -45,3 +45,20 @@
     left: 0;
   }
 }
+@media screen and (orientation: portrait) {
+  .welcome-h1 {
+    font-size: 15px;
+  }
+  .welcome-h2 {
+    font-size: 25px;
+  }
+  .welcome-h3 {
+    font-size: 20px;
+  }
+  .welcome-h4 {
+    font-size: 20px;
+  }
+  .Welcome-container {
+    margin-right: 10%;
+  }
+}

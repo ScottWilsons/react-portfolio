@@ -16,7 +16,7 @@ export const SliderData = [
   },
   {
     image: "https://iili.io/Ujlrjj.jpg",
-    title: "nOOs",
+    title: "nOOS",
     link: "https://news-site-gilt.vercel.app/",
   },
   {

@@ -63,6 +63,7 @@ const ImageSlider = () => {
                       href={slide.link}
                       target="_blank"
                       rel="noopener noreferrer"
+                      className="center-anchor"
                     >
                       <img
                         className="center-image"
