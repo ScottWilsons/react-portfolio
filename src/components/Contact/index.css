@@ -27,7 +27,98 @@
   font-size: 50px;
   margin: 0;
 }
+.form-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  height: 70%;
+  /* justify-content: space-evenly; */
+}
+.contact-input {
+  width: 80%;
+  border-radius: 25px;
+  height: 30px;
+  border: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: var(--dark-light-mode);
+  text-align: center;
+  font-family: var(--main-font);
+  color: var(--welcome-text);
+}
+.contact-input-message {
+  width: 80%;
+  border-radius: 25px;
+  height: 50%;
+  border: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: var(--dark-light-mode);
+  text-align: center;
+  font-family: var(--main-font);
+  color: var(--welcome-text);
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--welcome-text);
+  opacity: 1; /* Firefox */
+}
 
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--welcome-text);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--welcome-text);
+}
+.send-button {
+  border-radius: 25px;
+  height: 30px;
+  width: 60px;
+  border: 0;
+  background-color: var(--dark-light-mode);
+  font-family: var(--main-font);
+  color: var(--welcome-text);
+}
+.contact-logo-link {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  background-color: var(--dark-light-mode);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+.linkedin {
+  background: url("https://cdn.worldvectorlogo.com/logos/linkedin-icon-1.svg");
+  height: 55%;
+  width: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.github {
+  background: url("https://cdn.worldvectorlogo.com/logos/github-icon.svg");
+  height: 75%;
+  width: 75%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 @-webkit-keyframes slideLeft {
   100% {
     left: 0;
@@ -43,5 +134,22 @@
 @media screen and (orientation: portrait) {
   .contact-wrapper {
     padding-top: 100px;
+  }
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80%;
+  }
+  .logo-container {
+    width: 100%;
+  }
+  .form-content {
+    width: 100%;
+  }
+  .contact-logo-link {
+    height: 100px;
+    width: 100px;
   }
 }

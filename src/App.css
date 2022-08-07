@@ -4,7 +4,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-image: url(https://t3.ftcdn.net/jpg/03/41/31/88/360_F_341318810_iLrhXO8CD1mLSLIf7RkwXSahVuowqsgP.jpg);
+  background-image: var(--background);
+  /* keeps the background still */
+  background-attachment: fixed;
 }
 .content {
   /* margin-top: 100px; */

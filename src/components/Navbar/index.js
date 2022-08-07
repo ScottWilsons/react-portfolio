@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 
-function Navbar() {
+function Navbar({ ThemeSetter }) {
   return (
     <div className="nav">
       <div className="logoBox">
@@ -19,6 +19,11 @@ function Navbar() {
       <a href="#contact" className="linkButton">
         Contact
       </a>
+      {/* <button onClick={() => ThemeSetter()}>click here</button> */}
+      <label className="switch">
+        <input onClick={() => ThemeSetter()} type="checkbox"></input>
+        <span className="switch-slider round"></span>
+      </label>
     </div>
   );
 }

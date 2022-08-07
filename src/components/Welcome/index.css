@@ -1,31 +1,35 @@
-h1 {
+.welcome-h1 {
   font-size: 20px;
   margin: 1%;
   margin-left: 0;
   font-family: var(--main-font);
+  color: var(--welcome-text);
 }
-h2 {
+.welcome-h2 {
   font-size: 40px;
   margin: 1%;
   margin-left: 0;
   font-family: var(--main-font);
+  color: var(--welcome-text);
 }
-h3 {
+.welcome-h3 {
   font-size: 30px;
   margin: 1%;
   margin-left: 0;
   font-family: var(--main-font);
+  color: var(--welcome-text);
 }
-h4 {
+.welcome-h4 {
   font-size: 30px;
   margin: 1%;
   margin-left: 0;
   font-family: var(--main-font);
+  color: var(--welcome-text);
 }
 .Welcome-container {
-  margin-top: 5%;
+  margin-top: 4%;
   margin-left: 10%;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: var(--welcome-background);
   width: auto;
   height: auto;
 }
