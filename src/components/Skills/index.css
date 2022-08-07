@@ -6,6 +6,7 @@
   /* padding-top: 100px; */
 }
 .skills {
+  border-top: 10px solid var(--main);
   position: absolute;
   right: -90%;
   width: 90%;
