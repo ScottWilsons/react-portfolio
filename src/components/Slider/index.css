@@ -132,6 +132,7 @@
     opacity: 0;
   }
 }
+
 @media screen and (min-width: 1300px) and (max-width: 1800px) {
   .imageSides {
     opacity: 0;
