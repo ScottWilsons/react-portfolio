@@ -34,7 +34,8 @@ code {
   --dark-light-mode: #ccc;
 }
 .dark-mode {
-  --main: #506872;
+  /* --main: #506872; */
+  --main: #477183;
   /* --main: #911ddf; */
   /* --main: #99ffcc; */
   /* --main: #09ff15; */
