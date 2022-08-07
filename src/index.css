@@ -17,6 +17,8 @@ code {
   --second: rgba(26, 26, 26, 0.8);
   --header-text: rgb(229, 235, 240); */
   --main-font: monospace;
+  /* --main-font: "Trebuchet MS"; */
+  /* --main-font: "Helvetica"; */
   /* --background: url(https://t3.ftcdn.net/jpg/03/41/31/88/360_F_341318810_iLrhXO8CD1mLSLIf7RkwXSahVuowqsgP.jpg); */
 }
 
