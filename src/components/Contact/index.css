@@ -134,10 +134,7 @@
   }
 }
 
-@media screen and (orientation: portrait) {
-  .contact-wrapper {
-    padding-top: 100px;
-  }
+@media screen and (min-width: 250px) and (max-width: 975px) {
   .contact-content {
     display: flex;
     flex-direction: column;
