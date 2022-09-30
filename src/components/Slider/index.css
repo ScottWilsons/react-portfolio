@@ -13,7 +13,7 @@
   border-radius: 200px;
   margin-left: 20px;
   margin-right: 20px;
-  border: 10px solid var(--dark-light-mode);
+  border: 3px solid var(--dark-light-mode);
 }
 .imageSides {
   width: 180px;
@@ -21,7 +21,7 @@
   border-radius: 200px;
   margin-left: 20px;
   margin-right: 20px;
-  border: 10px solid var(--dark-light-mode);
+  border: 3px solid var(--dark-light-mode);
 }
 .center-project-text {
   position: absolute;
@@ -39,7 +39,7 @@
   color: var(--welcome-text);
 }
 .center-image {
-  border: 10px solid var(--dark-light-mode);
+  border: 3px solid var(--dark-light-mode);
   border-bottom: 40px solid var(--dark-light-mode);
   width: 250px;
   height: 250px;

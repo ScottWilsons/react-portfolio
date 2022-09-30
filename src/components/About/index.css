@@ -27,8 +27,9 @@
 .about-title {
   padding-top: 20px;
   font-size: 40px;
-  font-weight: 100;
+  /* font-weight: 100; */
   margin: 0;
+  font-weight: var(--main-fontWeight);
 }
 
 @-webkit-keyframes slide {
@@ -59,13 +60,13 @@
   background-size: cover;
   min-width: 250px;
   min-height: 250px;
-  border: 10px solid var(--dark-light-mode);
+  border: 3px solid var(--dark-light-mode);
 }
 .about-text {
   text-align: left;
   padding-right: 10%;
   font-size: 27px;
-  font-weight: 500;
+  font-weight: var(--main-fontWeight);
   margin: 0;
   /* height: 250px; */
 }
