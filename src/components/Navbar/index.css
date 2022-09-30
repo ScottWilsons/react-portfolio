@@ -1,7 +1,7 @@
 .linkButton {
   color: var(--header-text);
   font-family: var(--main-font);
-  font-weight: 900;
+  font-weight: var(--main-fontWeight);
 }
 .nav {
   background-color: var(--main);
@@ -16,6 +16,7 @@
   top: 0;
   z-index: 100;
   /* z-index: 1; */
+  font-size: larger;
 }
 .logo {
   height: 50px;

@@ -4,6 +4,7 @@
   margin-left: 0;
   font-family: var(--main-font);
   color: var(--welcome-text);
+  font-weight: var(--main-fontWeight);
 }
 .welcome-h2 {
   font-size: 40px;
@@ -11,6 +12,7 @@
   margin-left: 0;
   font-family: var(--main-font);
   color: var(--welcome-text);
+  font-weight: var(--main-fontWeight);
 }
 .welcome-h3 {
   font-size: 30px;
@@ -18,6 +20,7 @@
   margin-left: 0;
   font-family: var(--main-font);
   color: var(--welcome-text);
+  font-weight: var(--main-fontWeight);
 }
 .welcome-h4 {
   font-size: 30px;
@@ -25,6 +28,7 @@
   margin-left: 0;
   font-family: var(--main-font);
   color: var(--welcome-text);
+  font-weight: var(--main-fontWeight);
 }
 .Welcome-container {
   margin-top: 4%;

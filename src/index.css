@@ -16,14 +16,19 @@ code {
   /* --main: #660033;
   --second: rgba(26, 26, 26, 0.8);
   --header-text: rgb(229, 235, 240); */
-  --main-font: monospace;
+  /* --main-font: monospace; */
+  --main-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   /* --main-font: "Trebuchet MS"; */
   /* --main-font: "Helvetica"; */
   /* --background: url(https://t3.ftcdn.net/jpg/03/41/31/88/360_F_341318810_iLrhXO8CD1mLSLIf7RkwXSahVuowqsgP.jpg); */
+  --main-fontWeight: 100;
 }
 
 .light-mode {
-  --main: #660033;
+  /* --main: #660033; */
+  --main: #3b4b59;
   /* --second: rgba(26, 26, 26, 0.8); */
   --second: rgb(26, 26, 26);
   --header-text: rgb(229, 235, 240);
@@ -35,20 +40,26 @@ code {
 }
 .dark-mode {
   /* --main: #506872; */
-  --main: #477183;
+  /* --main: #477183; original*/
+  /* --main: #363652; */
+  --main: #3b4b59;
   /* --main: #911ddf; */
   /* --main: #99ffcc; */
   /* --main: #09ff15; */
   /* --main: #d4046c; */
-  /* --second: rgba(150, 150, 150, 0.8); */
+  /* --second: rgb(85, 84, 84) original; */
+  --second: rgb(26, 26, 26);
   /* --second: rgba(179, 179, 179, 0.8); */
   /* --second: rgb(179, 179, 179); */
   /* --second: rgb(207, 207, 198); */
-  --second: rgb(197, 197, 190);
-  --header-text: rgb(0, 0, 0);
+  /* --second: rgb(197, 197, 190); */
+  /* --second: rgb(197, 197, 190); original*/
+  /* --header-text: rgb(0, 0, 0) original; */
+  --header-text: rgb(229, 235, 240);
   --welcome-background: rgba(0, 0, 0, 0.7);
   --welcome-text: rgb(255, 255, 255);
   --background: url(../public/BlackBackground.jpg);
-  --logo: url(../public/SAW.png);
+  /* --logo: url(../public/SAW.png); */
+  --logo: url(../public/SAWWhite.png);
   --dark-light-mode: #4b4e50;
 }
