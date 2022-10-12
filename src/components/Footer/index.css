@@ -4,7 +4,7 @@
   justify-content: space-evenly;
   margin-top: 82.5px;
   color: var(--header-text);
-  background-color: var(--main);
+  background: var(--main);
   font-weight: var(--main-fontWeight);
   font-family: var(--main-font);
 }

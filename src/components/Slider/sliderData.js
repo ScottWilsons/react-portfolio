@@ -24,4 +24,9 @@ export const SliderData = [
     title: "Fashion Guru Hackathon",
     link: "https://10-06-hackathon.vercel.app/",
   },
+  {
+    image: "https://iili.io/Z2PpEb.md.png",
+    title: "Events Hackathon",
+    link: "https://event-hackathon.vercel.app/",
+  },
 ];

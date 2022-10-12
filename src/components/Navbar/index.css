@@ -4,7 +4,7 @@
   font-weight: var(--main-fontWeight);
 }
 .nav {
-  background-color: var(--main);
+  background: var(--main);
   width: 100%;
   height: 70px;
   display: flex;

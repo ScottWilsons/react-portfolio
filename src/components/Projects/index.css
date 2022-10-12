@@ -6,7 +6,7 @@
   /* padding-top: 100px; */
 }
 .projects {
-  border-top: 10px solid var(--main);
+  border-top: 10px solid var(--twoGradient);
   position: absolute;
   left: -90%;
   width: 90%;
